@@ -5,7 +5,7 @@ import Mizu from "../assets/Mizu.png"
 
 function Banner() {
     return (
-        <section className='bg-[#0D1B2A] text-white pt-[81px] pb-[172px] relative'>
+        <section className='bg-[#0D1B2A] text-white pt-[81px] pb-[172px] '>
             <Container>
                 <Flex>
                     <div className='w-1/2'>

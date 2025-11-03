@@ -90,7 +90,7 @@ var settings = {
   };
 
     return (
-        <section className='text-white  absolute -bottom-[-12px] left-0 w-full '>
+        <section className='text-white  absolute top-[-100px] left-0 w-full '>
             <Container>
                <Slider {...settings}>
                  {itmes.map((cItem) => (
@@ -99,6 +99,7 @@ var settings = {
                </Slider>
             
             </Container>
+           
         </section>
     )
 }
