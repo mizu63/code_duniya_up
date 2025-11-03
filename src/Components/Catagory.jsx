@@ -26,7 +26,7 @@ function Catagory() {
             icon: Jim
         },
         {
-            name: "ফিল্ম মিডিয়া na",
+            name: "ফিল্ম মিডিয়া ",
             icon: Ahmmed
         },
     {
@@ -34,7 +34,7 @@ function Catagory() {
             icon: icon1
         },
         {
-            name: "নেটওয়ার্কিং na",
+            name: "নেটওয়ার্কিং",
             icon: Vector
         }
     ]
