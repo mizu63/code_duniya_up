@@ -47,7 +47,7 @@ const ArrowStyle = {
   width: "35px",
   height: "35px",
   borderRadius: "50%",
-  background: "red",
+  background: "gray",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
@@ -57,7 +57,7 @@ const ArrowStyle = {
 function SampleNextArrow({ onClick, style }) {
   return (
     <div
-      style={{ ...ArrowStyle, right: "-15px" }}
+      style={{ ...ArrowStyle, right: "50px" }}
       onClick={onClick}
     >
       <GrFormNext color="white" />
