@@ -5,7 +5,7 @@ import Listitem from '../Layout/Listitem'
 import Flex from "../Layout/Flex.jsx"
 function Header() {
   return (
-    <header className='bg-[#0D1B2A] text-white pt-[22px] pb-[23px]'>
+    <header className='bg-[#0D1B2A] text-white  pt-[22px] pb-[23px]'>
       <Container>
         <Flex className="justify-between items-center">
           <img src={Logo} alt="Logo" />
