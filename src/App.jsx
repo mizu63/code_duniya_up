@@ -4,6 +4,10 @@ import Banner from './Components/Banner'
 import Catagory from './Components/Catagory'
 import CrouseList from './Components/CrouseList'
 import Review from "./Components/Review"
+import About from "./Components/About"
+import Sectionvideo from "./Components/Sectionvideo"
+import Information from "./Components/Information"
+
 function App() {
   return (
     <div>
@@ -14,6 +18,10 @@ function App() {
      </div>
      <CrouseList/>
      <Review/>
+     <About/>
+     <Sectionvideo/>
+     <Information/>
+   
     </div>
   )
 }
