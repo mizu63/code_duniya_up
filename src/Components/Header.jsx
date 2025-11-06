@@ -18,7 +18,7 @@ function Header() {
             <Listitem item="ক্যারিয়ার গাইডলাইন" />
           </ul>
 
-          <button className='bg-[#415A77] px-[58px] py-1 font-ake text-2xl font-semibold rounded-[10px]'>কোর্স দেখুন</button>
+          <button className='bg-[#415A77] px-[58px] cursor-pointer py-1 font-ake text-2xl font-semibold rounded-[10px]'>কোর্স দেখুন</button>
         </Flex>
       </Container>
     </header>

@@ -4,8 +4,8 @@ import Catagory_item from "../Components/ul/Cetagory_item.jsx"
 import icon1 from "../assets/icon1.png"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import { GrFormNext } from "react-icons/gr";
-import { GrFormPrevious } from "react-icons/gr";
+import { GrCaretNext } from "react-icons/gr";
+import { GrCaretPrevious } from "react-icons/gr";
 
 import "slick-carousel/slick/slick-theme.css"
 import Vector from "../assets/Vector.png"
@@ -44,10 +44,10 @@ const ArrowStyle = {
   top: "50%",
   transform: "translateY(-50%)",
   zIndex: 2,
-  width: "35px",
-  height: "35px",
-  borderRadius: "50%",
-  background: "gray",
+  width: "45px",
+  height: "45px",
+  borderRadius: "30%",
+  background: "#0D1B2A",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
@@ -60,7 +60,7 @@ function SampleNextArrow({ onClick, style }) {
       style={{ ...ArrowStyle, right: "50px" }}
       onClick={onClick}
     >
-      <GrFormNext color="white" />
+      <GrCaretNext  className='text-2xl' color="white" />
     </div>
   );
 }
@@ -71,7 +71,7 @@ function SamplePrevArrow({ onClick, style }) {
       style={{ ...ArrowStyle, left: "-15px" }}
       onClick={onClick}
     >
-      <GrFormPrevious color="white" />
+      <GrCaretPrevious className='text-2xl' color="white" />
     </div>
   );
 }

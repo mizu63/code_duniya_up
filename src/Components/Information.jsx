@@ -17,41 +17,41 @@ function Information() {
                     <Button className="text-[20px] font-ake font-bold border border-white" bnt="আমাদের সেমিনারে যোগ দিন" />
                 </div>
 
-                <Flex className="gap-1">
+                <Flex className="gap-1 mt-[90px] pb-[50px]">
                    <div className='w-1/4'>
                    <h1 className='text-2xl font-ake font-semibold mb-5'>আমাদের ঠিকানা</h1>
-                   <ul className='gap-4'>
-                        <Listitem className="text-[20px] font-normal" item="২৮ / ২, মেহের প্লাজা, ধানমন্ডি, ঢাকা"/>
-                         <Listitem className="text-[20px] font-normal" item="+৮৮ ০১৭১৫৫৫৭৮৯৬"/>
-                          <Listitem className="text-[20px] font-normal" item="info@codeduniya.com"/>
+                   <ul className='flex flex-col gap-3'>
+                        <Listitem className="text-[16px] font-normal" item="২৮ / ২, মেহের প্লাজা, ধানমন্ডি, ঢাকা"/>
+                         <Listitem className="text-[16px] font-normal" item="+৮৮ ০১৭১৫৫৫৭৮৯৬"/>
+                          <Listitem className="text-[16px] font-normal" item="info@codeduniya.com"/>
                            
                      </ul>
                    </div>
                     <div className='w-1/4'>
                      <h1 className='text-2xl font-ake font-semibold mb-5'>আমাদের ঠিকানা</h1>
 
-                     <ul className='gap-4'>
-                        <Listitem className="text-[20px] font-normal" item="আমাদের কোর্স"/>
-                         <Listitem className="text-[20px] font-normal" item="মেন্টর"/>
-                          <Listitem className="text-[20px] font-normal" item="আমাদের ব্লগ"/>
-                           <Listitem className="text-[20px] font-normal" item="প্রাইভেসি পলিসি"/>
-                            <Listitem className="text-[20px] font-normal" item="আমাদের সেমিনার"/>
+                     <ul className='flex flex-col gap-3'>
+                        <Listitem className="text-[16px] font-normal" item="আমাদের কোর্স"/>
+                         <Listitem className="text-[16px] font-normal" item="মেন্টর"/>
+                          <Listitem className="text-[16px] font-normal" item="আমাদের ব্লগ"/>
+                           <Listitem className="text-[16px] font-normal" item="প্রাইভেসি পলিসি"/>
+                            <Listitem className="text-[16px] font-normal" item="আমাদের সেমিনার"/>
                      </ul>
 
                     </div>
                      <div className='w-1/4'>
                       <h1 className='text-2xl font-ake font-semibold mb-5'>আমাদের ঠিকানা</h1>
 
-                       <ul className='gap-4'>
-                        <Listitem className="text-[20px] font-semibold" item="ওয়েব ডেভেলপমেন্ট"/>
-                         <Listitem className="text-[20px] font-normal" item="গ্রাফিক্স ডিজাইন"/>
-                          <Listitem className="text-[20px] font-normal" item="অ্যাপ ডেভেলপমেন্ট"/>
-                           <Listitem className="text-[20px] font-normal" item="সাইবার সিকিউরিটি"/>
-                            <Listitem className="text-[20px] font-normal" item="ভিডিও এডিটিং"/>
+                       <ul className='flex flex-col gap-3'>
+                        <Listitem className="text-[16px] font-normal" item="ওয়েব ডেভেলপমেন্ট"/>
+                         <Listitem className="text-[16px] font-normal" item="গ্রাফিক্স ডিজাইন"/>
+                          <Listitem className="text-[16px] font-normal" item="অ্যাপ ডেভেলপমেন্ট"/>
+                           <Listitem className="text-[16px] font-normal" item="সাইবার সিকিউরিটি"/>
+                            <Listitem className="text-[16px] font-normal" item="ভিডিও এডিটিং"/>
                      </ul>
                      </div>
                       <div className=' w-1/4 flex justify-center'>
-                <img src={Mishu} alt="logo" />
+                <img className='rounded-2xl' src={Mishu} alt="logo" />
 
                 </div>
 

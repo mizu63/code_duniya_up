@@ -7,6 +7,7 @@ import Review from "./Components/Review"
 import About from "./Components/About"
 import Sectionvideo from "./Components/Sectionvideo"
 import Information from "./Components/Information"
+import Footer from "./Components/Footer"
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
      <About/>
      <Sectionvideo/>
      <Information/>
-   
+     <Footer/>
     </div>
   )
 }

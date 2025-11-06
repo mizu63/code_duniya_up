@@ -5,7 +5,8 @@ import Container from '../Layout/Container'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { GrFormNext, GrFormPrevious } from "react-icons/gr";
+import { GrCaretNext } from "react-icons/gr";
+import { GrCaretPrevious } from "react-icons/gr";
 
 function Review() {
 
@@ -61,7 +62,7 @@ function Review() {
   function SampleNextArrow({ onClick }) {
     return (
       <div style={{ ...ArrowStyle, right: "45%" }} onClick={onClick}>
-        <GrFormNext color="white" />
+        <GrCaretNext className='text-2xl' color="white" />
       </div>
     );
   }
@@ -69,7 +70,7 @@ function Review() {
   function SamplePrevArrow({ onClick }) {
     return (
       <div style={{ ...ArrowStyle, left: "45%" }} onClick={onClick}>
-        <GrFormPrevious color="white" />
+        <GrCaretPrevious className='text-2xl' color="white" />
       </div>
     );
   }
