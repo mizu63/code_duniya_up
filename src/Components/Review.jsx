@@ -84,20 +84,34 @@ function Review() {
     autoplay: true,
     autoplaySpeed: 1500,
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
+    prevArrow: <SamplePrevArrow />,
+
+    responsive: [
+   {
+        breakpoint:768,
+        settings: {
+          slidesToShow:1,
+          slidesToScroll: 1,
+        arrows: false,
+        },
+      },
+    ],
   };
 
+
+
+  
   return (
-    <section className='mt-[97px] pb-[204px]'>
+    <section className='mt-10 md:mt-[97px] md:pb-[204px]'>
       <Container>
         <h1 className='font-bold font-ake text-[36px] text-center'>কেন আমরাই সেরা</h1>
         <h4 className='font-medium font-ake text-[20px] text-center'>
           কেন আপনি আমাদের লার্নার হবেন
         </h4>
-        <div className='mt-[55px]'>
+        <div className=' mt-6 md:mt-[55px]'>
           <Slider {...settings}>
-            {Tcard.map((item) => (
-              <div className="px-3">
+            {Tcard.map((item,index) => (
+              <div  key={index} className="px-3">
                 <Card mizu={item} />
               </div>
             ))}

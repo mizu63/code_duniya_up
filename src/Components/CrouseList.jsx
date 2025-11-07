@@ -107,18 +107,18 @@ function CrouseList() {
 
    let Fainal=Crouselist.slice(0,crouseCount)
   return (
-    <div className='mt-[170px] '>
+    <div className=' mt-28 md:mt-[170px] '>
       <Container>
         <Titile main_title="কেন আমরাই সেরা"
         sub_title="কেন আপনি আমাদের লার্নার হবেন"/>
-<Flex className="justify-between mt-[62px] pb-[45px] gap-2 flex-wrap">
+<Flex className="justify-between mt-6 md:mt-[62px] pb-4 md:pb-[45px] gap-2 flex-wrap">
      {
    Fainal.map((itme)=>(
     <Crouse_card CrouseList={itme}/>
    )) 
  }
 </Flex>
-        <Button onClick={hendhael} className="px-[57px] py-1 font-ake font-bold text-black mt-3 block mx-auto"
+        <Button onClick={hendhael} className="px-4  md:px-[57px] py-1 font-ake font-bold text-black mt-1 md:mt-3 block mx-auto"
         
           bnt={crouseCount === 3 ? "আরও কোর্স দেখুন" : "কম দেখুন"}
         />

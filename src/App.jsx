@@ -21,8 +21,8 @@ function App() {
      <Review/>
      <About/>
      <Sectionvideo/>
-     <Information/>
-     <Footer/>
+     {/* <Information/>
+     <Footer/> */}
     </div>
   )
 }

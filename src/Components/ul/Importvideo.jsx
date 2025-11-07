@@ -4,8 +4,8 @@ function Importvideo({jim}) {
   return (
     <div>
        <iframe 
-        width="560" 
-        height="315" 
+        
+       className='w-full md:w-[560px] h-auto md:h-[315px]'
         src={jim.video} 
         // title="YouTube video player" 
         // frameBorder="0" 

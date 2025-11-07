@@ -39,16 +39,16 @@ function Sectionvideo() {
   return (
     <section className='pb-[90px]'>
         <Container>
-            <h1 className='text-[36px] font-ake font-bold text-black text-center'>আমাদের সফলতার গল্পগুলো</h1>
-            <h3 className='text-[20px] font-ake font-medium text-black text-center mb-[90px]'>আমাদের হাতে তৈরি হওয়া প্রতিটি নক্ষত্র</h3>
-      <div className='flex flex-wrap gap-6'>
+            <h1 className=' text-2xl md:text-[36px] font-ake font-bold text-black text-center'>আমাদের সফলতার গল্পগুলো</h1>
+            <h3 className='text-lg md:text-[20px] font-ake font-medium text-black text-center mb-4 md:mb-[90px]'>আমাদের হাতে তৈরি হওয়া প্রতিটি নক্ষত্র</h3>
+      <div className=' w-full md:flex md:flex-wrap gap-6 '>
         { final.map((item) => (
         <Importvideo jim={item} />
       ))}
       </div>
 
-      <div className='mt-[58px]'>
-         <Button onClick={handel} className="px-[83px] py-1 font-ake text-2xl font-bold text-black  block mx-auto" bnt={overlet===4? "আরও দেখুন":"কম দেখুন"}/>
+      <div className='mt-5 md:mt-[58px]'>
+         <Button onClick={handel} className=" px-2 md:px-[83px] py-1 font-ake text-2xl font-bold text-black  block mx-auto" bnt={overlet===4? "আরও দেখুন":"কম দেখুন"}/>
       </div>
         </Container>
     </section>

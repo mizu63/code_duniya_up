@@ -86,7 +86,19 @@ var settings = {
     autoplay: true,
     autoplaySpeed: 1000,
      nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
+    prevArrow: <SamplePrevArrow />,
+ responsive: [
+   {
+        breakpoint:768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        arrows: false,
+        },
+      },
+      
+    ],
+
   };
 
     return (
