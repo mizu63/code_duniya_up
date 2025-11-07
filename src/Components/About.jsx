@@ -6,7 +6,7 @@ import Listitem from '../Layout/Listitem'
 
 function About() {
   return (
-    <section className='pb-[118px]'>
+    <section className=' pb-4 md:pb-[118px]'>
         <Container>
             <Flex className="flex-col md:flex-row gap-[35px]">
                 <div className=' w-full md:w-1/2 '>

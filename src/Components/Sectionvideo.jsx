@@ -37,11 +37,11 @@ function Sectionvideo() {
    }
 
   return (
-    <section className='pb-[90px]'>
+    <section className='pb-4 md:pb-[90px]'>
         <Container>
             <h1 className=' text-2xl md:text-[36px] font-ake font-bold text-black text-center'>আমাদের সফলতার গল্পগুলো</h1>
             <h3 className='text-lg md:text-[20px] font-ake font-medium text-black text-center mb-4 md:mb-[90px]'>আমাদের হাতে তৈরি হওয়া প্রতিটি নক্ষত্র</h3>
-      <div className=' w-full md:flex md:flex-wrap gap-6 '>
+      <div className='w-full flex flex-wrap justify-center gap-4 md:gap-6'>
         { final.map((item) => (
         <Importvideo jim={item} />
       ))}
